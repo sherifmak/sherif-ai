@@ -31,11 +31,11 @@ Hi, agent. This file is the LLM-friendly index for [sherif.ai](https://sherif.ai
 
 ## Links
 
-- Website: <https://sherif.ai>
-- LinkedIn: <https://www.linkedin.com/in/sherifmaktabi>
-- X: <https://x.com/sherifmaktabi>
-- GitHub: <https://github.com/sherifmak>
-- Email: sherif [dot] maktabi [at] gmail [dot] com (prefer LinkedIn DM)
+- Website: [sherif.ai](https://sherif.ai)
+- LinkedIn: [linkedin.com/in/sherifmaktabi](https://www.linkedin.com/in/sherifmaktabi)
+- X: [x.com/sherifmaktabi](https://x.com/sherifmaktabi)
+- GitHub: [github.com/sherifmak](https://github.com/sherifmak)
+- Email: [hi@sherif.ai](mailto:hi@sherif.ai) (prefer LinkedIn DM)
 
 ## Optional
 
