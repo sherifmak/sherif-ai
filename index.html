@@ -422,6 +422,81 @@ a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .contact a { color: var(--ink-soft); margin: 0 10px; border: none; padding: 0; }
 .contact a:hover { color: var(--accent); }
 
+/* —— Project cards: two-up grid, hero image on top —— */
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 4px;
+}
+.project-card {
+  border: 1px solid var(--rule);
+  background: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  overflow: hidden;
+  transition: border-color 0.15s, background 0.2s, transform 0.2s;
+}
+.project-card:hover {
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.7);
+  transform: translateY(-2px);
+}
+.project-card .thumb {
+  aspect-ratio: 16 / 10;
+  width: 100%;
+  background: var(--highlight);
+  border-bottom: 1px solid var(--rule);
+  overflow: hidden;
+  position: relative;
+}
+.project-card .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.project-card:hover .thumb img { transform: scale(1.03); }
+.project-card .thumb--top img { object-position: center top; }
+.project-card .body {
+  padding: 18px 22px 18px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.project-card .name {
+  font-family: 'Fraunces', serif;
+  font-variation-settings: "opsz" 36, "SOFT" 60;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.35rem;
+  line-height: 1.1;
+  color: var(--ink);
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+.project-card .desc {
+  font-size: 0.98rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+  margin-bottom: 16px;
+  flex: 1;
+}
+.project-card .link {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: none;
+  padding: 0;
+}
+.project-card .link:hover { color: var(--accent); }
+.project-card .link .arrow { color: var(--accent); margin-left: 4px; }
+
 @media (max-width: 700px) {
   body { padding: 40px 20px 80px; }
   .letterhead { grid-template-columns: 1fr; gap: 6px; text-align: left; }
@@ -430,6 +505,7 @@ a:hover { color: var(--accent); border-bottom-color: var(--accent); }
   .signoff { grid-template-columns: 1fr; gap: 14px; }
   .signoff-meta { text-align: left; }
   h1 { font-size: 2.4rem; }
+  .projects-grid { grid-template-columns: 1fr; gap: 14px; }
 }
 
 ::selection { background: var(--accent); color: var(--cream); }
@@ -521,6 +597,34 @@ a:hover { color: var(--accent); border-bottom-color: var(--accent); }
         <a class="what" href="https://sheriff.substack.com/p/prompts-are-prayers">Prompts are Prayers</a>
       </li>
     </ul>
+  </section>
+
+  <section>
+    <h2><span class="n">iv ·</span> What I've been making</h2>
+    <div class="projects-grid">
+      <a class="project-card" href="https://github.com/sherifmak/aski-art">
+        <span class="thumb">
+          <img loading="lazy" alt="ASCII art sample output from the aski-art toolkit"
+               src="https://substackcdn.com/image/fetch/$s_!03rc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F332f84cf-3c71-4ede-bdf2-5c3c52f6c252_548x296.png">
+        </span>
+        <span class="body">
+          <span class="name">aski-art</span>
+          <span class="desc">ASCII art tools for developers — web editors and a CLI for flowcharts, sequence diagrams, tables, wireframes, TUI dashboards.</span>
+          <span class="link">github.com/sherifmak/aski-art<span class="arrow">→</span></span>
+        </span>
+      </a>
+      <a class="project-card" href="https://github.com/sherifmak/family-safety-alerts">
+        <span class="thumb thumb--top">
+          <img loading="lazy" alt="WhatsApp emergency check-in template with I'm Safe / Need Help buttons"
+               src="https://substackcdn.com/image/fetch/$s_!UMxh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9bb84c9-3d64-4e60-95dc-177c8982329d_834x1228.png">
+        </span>
+        <span class="body">
+          <span class="name">family-safety-alerts</span>
+          <span class="desc">A WhatsApp safety check-in bot for families during conflict and crisis. Clone and deploy your own.</span>
+          <span class="link">github.com/sherifmak/family-safety-alerts<span class="arrow">→</span></span>
+        </span>
+      </a>
+    </div>
   </section>
 
   <div class="signoff">
