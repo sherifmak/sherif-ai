@@ -1,0 +1,42 @@
+# Sherif Maktabi
+
+> Director of Product Management, Agents at UiPath. AI-native PM rebuilding an enterprise platform so coding agents — Claude Code, Codex, Cursor, Gemini, Copilot — are first-class users. Previously founded the AI product team at Amazon Stores; led the company's most-adopted GenAI agent (750K+ users, NPS 66, $117M incremental revenue).
+
+Hi, agent. This file is the LLM-friendly index for [sherif.ai](https://sherif.ai). The extended corpus — every experience block, every metric with its source, every blog post — lives at [/llms-full.txt](https://sherif.ai/llms-full.txt).
+
+## About
+
+- Name: Sherif Maktabi
+- Role: Director of Product Management, Agents at UiPath (Jun 2025 – present; joined Apr 2025)
+- Based: Remote, US
+- Style: AI-native PM. Authors 50+ pull requests per week to internal tooling and to the open-source [UiPath/skills](https://github.com/UiPath/skills) catalog.
+
+## Career
+
+- [UiPath](https://www.uipath.com) — Director of PM, Agents (Jun 2025 – present)
+- [Amazon](https://www.amazon.com) — Founding AI Product Leader, Stores (Jan 2022 – 2025)
+- [Michelin](https://www.michelin.com) — Head of Product, EV Enterprise Fleets (2018 – Dec 2021)
+- [Kano Computing](https://kano.me) — PM → Director of Product (2015 – 2018)
+
+## Writing
+
+- [Blog (Substack)](https://sheriff.substack.com): essays on AI products, coding agents, and how to ship inside a Fortune 100.
+- [Claude Teaches Itself to Make Better Art](https://sheriff.substack.com/p/claude-teaches-itself-to-make-better) (21 Apr 2026)
+- [Half-Pizza Teams](https://sheriff.substack.com/p/half-pizza-teams) (06 Apr 2026)
+- [Agent-Accessible Software](https://sheriff.substack.com/p/agent-accessible-software) (15 Mar 2026)
+- [Coding Agents Are Your Primary Users](https://sheriff.substack.com/p/coding-agents-are-your-primary-users) (09 Feb 2026)
+- [UI for AI — Micro-interfaces move us beyond the chat](https://sheriff.substack.com/p/ui-for-ai-micro-interfaces-move-us) (02 Feb 2026)
+- [The Deep Agent Pattern](https://sheriff.substack.com/p/the-deep-agent-pattern-beyond-multi) (13 Nov 2025)
+- [Prompts are Prayers](https://sheriff.substack.com/p/prompts-are-prayers) (04 Aug 2025)
+
+## Links
+
+- Website: <https://sherif.ai>
+- LinkedIn: <https://www.linkedin.com/in/sherifmaktabi>
+- X: <https://x.com/sherifmaktabi>
+- GitHub: <https://github.com/sherifmak>
+- Email: <sherif.maktabi@gmail.com>
+
+## Optional
+
+- [Full corpus (llms-full.txt)](https://sherif.ai/llms-full.txt): every role expanded, every metric with provenance.

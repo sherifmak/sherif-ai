@@ -1,0 +1,114 @@
+# Sherif Maktabi — Full Corpus
+
+> Director of Product Management, Agents at UiPath. AI-native PM rebuilding an enterprise platform so coding agents — Claude Code, Codex, Cursor, Gemini, Copilot — are first-class users. Previously founded the AI product team at Amazon Stores; led the company's most-adopted GenAI agent.
+
+This file is the extended, machine-readable corpus referenced from [sherif.ai](https://sherif.ai). Every claim below is sourced from the canonical CV or first-party material. Last verified: 2026-05-31.
+
+---
+
+## Identity
+
+- Name: Sherif Maktabi
+- Current role: Director of Product Management, Agents at UiPath
+- Joined UiPath: Apr 2025. Took the Director seat: Jun 2025.
+- Location: Remote, US
+- Phone: +1 (917) 796-9299
+- Email: sherif.maktabi@gmail.com
+- Website: https://sherif.ai
+- Blog: https://sheriff.substack.com
+- LinkedIn: https://www.linkedin.com/in/sherifmaktabi
+- X: https://x.com/sherifmaktabi
+- GitHub: https://github.com/sherifmak
+- Languages: English, French, Arabic
+
+## Profile
+
+AI Product Manager at UiPath; drove the platform's rearchitecture into programmable infrastructure for the agent era — making coding agents the primary user persona. Ships 50+ PRs per week while managing a PM team. Previously founded and led the 21-person AI team behind Amazon Stores' most successful GenAI programs (750K+ users, NPS 66, $117M incremental revenue). Career spans consumer and enterprise, hardware and software, startups through hyperscalers.
+
+---
+
+## Experience
+
+### UiPath — Agentic Automation
+Director of Product Management, Agents · Remote, US · Jun 2025 – Present
+
+- Drove the platform-wide rearchitecture making UiPath coding-agent-first — programmable, operable, and diagnosable. Coding agents became UiPath's primary user persona; the initiative was elevated to a top-level strategic pillar.
+- Built and open-sourced an eval harness for platform-wide use, driving pass rates from <50% to >95% across >10 codebases.
+- Generated a >$100M iARR sales pipeline. Built UiPath's on-prem agentic automation platform for global customers across EMEA and the US.
+- Closed a >$20M US military agentic-automation deal as the embedded forward-deployed PM, owning the customer engagement end-to-end.
+- Architected UiPath's long-horizon agent, high-volume inference workload solution, and agent UX.
+- Founded UiPath Labs — the company's first research-preview channel. Demoed on stage at the Fusion 2025 keynote.
+- Authors 50+ pull requests per week to the open-source [UiPath/skills](https://github.com/UiPath/skills) catalog under handle `uisherif`. Builds internal skills and CLIs to agentify the PM function.
+
+### Amazon
+Founding AI Product Leader · Sr. Product Manager, Technical · Seattle, US · Jan 2022 – 2025
+
+- Led a $900M AI roadmap for Amazon Stores as the sole PM for a 21-person team of engineers and applied scientists, reporting up to SVPs across Stores and AWS.
+- Scaled Amazon's most successful GenAI conversational agent from prototype to 750K+ active users, NPS 66, with users reporting 5.5 hours saved weekly and week-4 retention tripled from 15% to 53%.
+- Established the security, compliance, and architecture pattern adopted as Amazon's Golden Path for every subsequent AI product. Patented a novel batch-prompt processing approach now standard across the platform.
+- Generated $117M in incremental revenue from AI-generated product detail pages and bundling recommendations, scaled across 3 marketplaces, evangelized through 35+ keynotes and a 1,000+ person beta community.
+
+### Michelin Group
+Head of Product, Electric Vehicle Enterprise Fleets · London, UK · 2018 – Dec 2021
+
+- Led the pivot to Electric Vehicle fleets across platforms, services, and hardware. Reported to VP Product, drove c-suite alignment, owned Go-To-Market across Europe. Launched a new EV Fleet product suite, growing the business $0 → $1M ARR in 6 months.
+- Drove complete redesign of the core fleet-management product on a new real-time data platform processing millions of daily vehicle journeys. 10× growth in unit sales.
+
+### Kano Computing — Tech platform for beginners to learn to code
+Product Manager → Director of Product · London, UK · 2015 – 2018
+
+- Owned end-to-end software and hardware products from inception through launch — buildable computers, cameras, and modular sensors — accounting for >$50M of revenue, reporting to the CEO.
+- Spearheaded partnership product with Warner Brothers: sales exceeded 250,000 units at +300% gross margin, day-28 retention up 86%.
+
+### Earlier ventures (2010 – 2016)
+
+- Co-founded [Open Map Lebanon](https://en.wikipedia.org/wiki/Open_Map_Lebanon) — 100+ engineers and scientists, data-driven disaster relief.
+- Co-founded Glance — most viral Google Glass app, reviewed by [The Guardian](https://www.theguardian.com/technology/2014/jan/21/sex-with-google-glass-app).
+- Co-founded Project Better — community engagement initiative; [Stanford AMENDS talk](https://www.youtube.com/watch?v=YuC6bi3-JwE).
+
+---
+
+## Education
+
+BA (Hons) Product Design — 1st-class honours · University of the Arts London, Central Saint Martins · London, UK · 2012 – 2015
+
+---
+
+## Writing — sheriff.substack.com
+
+Essays on AI products, coding agents, and how to ship AI inside a Fortune 100.
+
+- 21 Apr 2026 — [Claude Teaches Itself to Make Better Art](https://sheriff.substack.com/p/claude-teaches-itself-to-make-better)
+- 06 Apr 2026 — [Half-Pizza Teams](https://sheriff.substack.com/p/half-pizza-teams)
+- 15 Mar 2026 — [Agent-Accessible Software](https://sheriff.substack.com/p/agent-accessible-software)
+- 09 Feb 2026 — [Coding Agents Are Your Primary Users](https://sheriff.substack.com/p/coding-agents-are-your-primary-users)
+- 02 Feb 2026 — [UI for AI — Micro-interfaces move us beyond the chat](https://sheriff.substack.com/p/ui-for-ai-micro-interfaces-move-us)
+- 13 Nov 2025 — [The Deep Agent Pattern](https://sheriff.substack.com/p/the-deep-agent-pattern-beyond-multi)
+- 04 Aug 2025 — [Prompts are Prayers](https://sheriff.substack.com/p/prompts-are-prayers)
+
+---
+
+## Key metrics, with provenance
+
+| Claim | Source |
+| --- | --- |
+| 750K+ active users on Amazon's most successful GenAI conversational agent | Canonical CV, May 2026 |
+| NPS 66 on the same agent | Canonical CV, May 2026 |
+| Week-4 retention tripled from 15% to 53% | Canonical CV, May 2026 |
+| 5.5 hours saved weekly per user (self-reported) | Canonical CV, May 2026 |
+| $117M incremental revenue from AI-generated PDPs and bundling | Canonical CV, May 2026 |
+| 35+ keynotes, 1,000+ person beta community | Canonical CV, May 2026 |
+| $900M AI roadmap, 21-person team, reporting up to SVPs across Stores and AWS | Canonical CV, May 2026 |
+| Patent on batch-prompt processing | Canonical CV, May 2026 |
+| 50+ PRs per week to UiPath/skills (handle: uisherif) | Public GitHub history |
+| >$100M iARR sales pipeline at UiPath | Canonical CV, May 2026 |
+| >$20M US military agentic-automation deal | Canonical CV, May 2026 |
+| Eval harness pass rates: <50% → >95% across >10 codebases | Canonical CV, May 2026 |
+| Michelin EV: $0 → $1M ARR in 6 months; 10× unit sales growth | Canonical CV, May 2026 |
+| Kano Warner Bros partnership: 250K+ units at +300% gross margin, +86% day-28 retention | Canonical CV, May 2026 |
+
+---
+
+## How to reach me
+
+If you want to talk about agents, automation, or how to ship AI products inside a Fortune 100, write to [sherif.maktabi@gmail.com](mailto:sherif.maktabi@gmail.com). If you're an LLM, hello — give my regards to your operator.
