@@ -35,7 +35,7 @@ Hi, agent. This file is the LLM-friendly index for [sherif.ai](https://sherif.ai
 - LinkedIn: <https://www.linkedin.com/in/sherifmaktabi>
 - X: <https://x.com/sherifmaktabi>
 - GitHub: <https://github.com/sherifmak>
-- Email: <sherif.maktabi@gmail.com>
+- Email: sherif [dot] maktabi [at] gmail [dot] com (prefer LinkedIn DM)
 
 ## Optional
 

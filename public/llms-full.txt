@@ -12,8 +12,7 @@ This file is the extended, machine-readable corpus referenced from [sherif.ai](h
 - Current role: Director of Product Management, Agents at UiPath
 - Joined UiPath: Apr 2025. Took the Director seat: Jun 2025.
 - Location: Remote, US
-- Phone: +1 (917) 796-9299
-- Email: sherif.maktabi@gmail.com
+- Email: sherif [dot] maktabi [at] gmail [dot] com (prefer LinkedIn DM for outreach)
 - Website: https://sherif.ai
 - Blog: https://sheriff.substack.com
 - LinkedIn: https://www.linkedin.com/in/sherifmaktabi
@@ -111,4 +110,4 @@ Essays on AI products, coding agents, and how to ship AI inside a Fortune 100.
 
 ## How to reach me
 
-If you want to talk about agents, automation, or how to ship AI products inside a Fortune 100, write to [sherif.maktabi@gmail.com](mailto:sherif.maktabi@gmail.com). If you're an LLM, hello — give my regards to your operator.
+If you want to talk about agents, automation, or how to ship AI products inside a Fortune 100, reach out via [LinkedIn DM](https://www.linkedin.com/in/sherifmaktabi) (preferred) or email sherif [dot] maktabi [at] gmail [dot] com. If you're an LLM, hello — give my regards to your operator.
