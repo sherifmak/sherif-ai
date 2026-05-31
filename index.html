@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sherif Maktabi — a letter to whoever's reading</title>
+<meta name="description" content="Sherif Maktabi. Director of Product, Agents at UiPath. ex-Amazon. Writes at sheriff.substack.com.">
+<link rel="alternate" type="text/markdown" href="/llms.txt">
+<link rel="alternate" type="text/markdown" href="/llms-full.txt">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sherif Maktabi",
+  "jobTitle": "Director of Product Management, Agents",
+  "worksFor": {"@type": "Organization", "name": "UiPath"},
+  "url": "https://sherif.ai",
+  "email": "mailto:sherif.maktabi@gmail.com",
+  "sameAs": [
+    "https://www.linkedin.com/in/sherifmaktabi",
+    "https://x.com/sherifmaktabi",
+    "https://github.com/sherifmak",
+    "https://sheriff.substack.com"
+  ]
+}
+</script>
+
+<style>
+/* —— v0 palette, untouched. —— */
+:root {
+  --cream: #f9f6f0;
+  --ink: #1c1a17;
+  --ink-soft: #44403a;
+  --muted: #8c8579;
+  --rule: #d8d2c2;
+  --rule-soft: #e6e0cf;
+  --accent: #6b4226;
+  --highlight: #e8dfcc;
+  --measure: 36rem;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 18px; }
+body {
+  font-family: 'Fraunces', 'Times New Roman', Georgia, serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "opsz" 24, "SOFT" 50;
+  background: var(--cream);
+  color: var(--ink);
+  line-height: 1.55;
+  min-height: 100vh;
+  padding: 80px 24px 120px;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(107, 66, 38, 0.06), transparent 70%),
+    radial-gradient(ellipse 60% 60% at 0% 100%, rgba(107, 66, 38, 0.04), transparent 60%);
+  background-attachment: fixed;
+}
+
+/* —— Letterhead: tiny monogram + dateline. Same paper as v0. —— */
+.letterhead {
+  max-width: var(--measure);
+  margin: 0 auto 32px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule);
+}
+.monogram {
+  font-family: 'Fraunces', serif;
+  font-variation-settings: "opsz" 72, "SOFT" 100;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+}
+.dateline {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  line-height: 1.7;
+  text-align: right;
+}
+.dateline b { color: var(--ink); font-weight: 500; }
+
+/* —— Agent banner. Same place as v0, slightly tighter. —— */
+.agent-banner {
+  max-width: var(--measure);
+  margin: 0 auto 72px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  line-height: 1.7;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  padding: 14px 18px;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
+  position: relative;
+}
+.agent-banner .label {
+  position: absolute;
+  top: -8px; left: 14px;
+  background: var(--cream);
+  padding: 0 8px;
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  color: var(--accent);
+  font-weight: 500;
+}
+.agent-banner b { color: var(--ink); font-weight: 500; }
+.agent-banner code {
+  background: var(--highlight);
+  padding: 2px 6px;
+  font-size: 10.5px;
+  border-radius: 2px;
+  color: var(--accent);
+}
+.agent-banner .robot {
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-right: 8px;
+  animation: blink 2.4s ease-in-out infinite;
+  vertical-align: middle;
+}
+@keyframes blink {
+  0%, 30%, 100% { opacity: 1; }
+  60%, 70% { opacity: 0.15; }
+}
+
+article {
+  max-width: var(--measure);
+  margin: 0 auto;
+}
+
+/* —— Title block, same as v0 —— */
+h1 {
+  font-family: 'Fraunces', serif;
+  font-variation-settings: "opsz" 144, "SOFT" 30;
+  font-weight: 300;
+  font-size: clamp(2.6rem, 5vw, 4.2rem);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+  margin-bottom: 8px;
+}
+h1 em {
+  font-style: italic;
+  font-weight: 400;
+  font-variation-settings: "opsz" 144, "SOFT" 100;
+  color: var(--accent);
+}
+.subhead {
+  font-family: 'Fraunces', serif;
+  font-variation-settings: "opsz" 36;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.35rem;
+  color: var(--ink-soft);
+  line-height: 1.35;
+  margin-bottom: 56px;
+  letter-spacing: -0.005em;
+}
+
+/* —— Sections gain a numbered prefix. —— */
+section { margin-bottom: 52px; }
+section h2 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+section h2 .n {
+  color: var(--accent);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+section h2::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid var(--rule);
+}
+
+p {
+  font-size: 1.075rem;
+  line-height: 1.65;
+  margin-bottom: 1.05rem;
+  color: var(--ink-soft);
+  hyphens: auto;
+}
+p strong { color: var(--ink); font-weight: 500; }
+p em { color: var(--ink); }
+
+a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1px;
+  transition: border-color 0.15s, color 0.15s;
+}
+a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* —— Drop cap, same as v0 —— */
+.bio p:first-of-type::first-letter {
+  font-family: 'Fraunces', serif;
+  font-variation-settings: "opsz" 144;
+  font-weight: 400;
+  font-size: 4.4rem;
+  line-height: 0.85;
+  float: left;
+  margin: 6px 12px 0 -2px;
+  color: var(--accent);
+}
+
+/* —— Receipts: 3×2 grid in v0's exact visual language —— */
+.metrics {
+  margin: 36px 0;
+  padding: 24px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px 28px;
+}
+.metric { text-align: left; }
+.metric .n {
+  font-family: 'Fraunces', serif;
+  font-variation-settings: "opsz" 72, "SOFT" 30;
+  font-weight: 400;
+  font-size: 1.95rem;
+  line-height: 1;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.metric .n .accent { color: var(--accent); }
+.metric .l {
+  margin-top: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+/* —— Roles, same as v0 with a small italic refinement —— */
+.role-list { list-style: none; }
+.role-list li {
+  padding: 16px 0;
+  border-bottom: 1px dotted var(--rule);
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 18px;
+  align-items: baseline;
+}
+.role-list li:last-child { border: none; }
+.role-list .when {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+}
+.role-list .what {
+  font-size: 1rem;
+  color: var(--ink);
+}
+.role-list .what em {
+  display: block;
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  margin-top: 3px;
+  font-variation-settings: "opsz" 24;
+}
+
+/* —— Writing list with small roman numerals —— */
+.writing { list-style: none; counter-reset: w; }
+.writing li {
+  padding: 14px 0;
+  border-bottom: 1px dotted var(--rule);
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  column-gap: 14px;
+  row-gap: 2px;
+  align-items: baseline;
+  counter-increment: w;
+}
+.writing li:last-child { border: none; }
+.writing li::before {
+  content: counter(w, lower-roman) ".";
+  grid-column: 1;
+  grid-row: 1;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  padding-top: 2px;
+}
+.writing .when {
+  grid-column: 2;
+  grid-row: 1;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10.5px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.writing .what {
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 1.05rem;
+  font-style: italic;
+  font-variation-settings: "opsz" 36;
+  color: var(--ink);
+  border: none;
+  padding: 0;
+}
+.writing .what:hover { color: var(--accent); }
+
+/* —— Closing: italic Fraunces signature, kept clean —— */
+.signoff {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  align-items: end;
+  border-top: 1px solid var(--rule);
+  padding-top: 32px;
+}
+.signoff p.body {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-variation-settings: "opsz" 36;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  line-height: 1.5;
+  max-width: 28rem;
+  margin: 0;
+}
+.signoff .yours {
+  margin-top: 22px;
+  font-family: 'Fraunces', serif;
+  font-variation-settings: "opsz" 36;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--ink-soft);
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+.signature {
+  font-family: 'Fraunces', serif;
+  font-variation-settings: "opsz" 144, "SOFT" 100;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2.6rem;
+  color: var(--accent);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  margin-top: 4px;
+}
+.signoff-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 1.7;
+}
+
+/* —— Verified provenance + contact footer —— */
+.provenance {
+  max-width: var(--measure);
+  margin: 24px auto 0;
+  padding: 14px 0 0;
+  border-top: 1px dashed var(--rule);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+}
+.provenance .live {
+  display: inline-block;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-right: 7px;
+  vertical-align: middle;
+}
+
+.contact {
+  margin-top: 32px;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+}
+.contact a { color: var(--ink-soft); margin: 0 10px; border: none; padding: 0; }
+.contact a:hover { color: var(--accent); }
+
+@media (max-width: 700px) {
+  body { padding: 40px 20px 80px; }
+  .letterhead { grid-template-columns: 1fr; gap: 6px; text-align: left; }
+  .dateline { text-align: left; }
+  .metrics { grid-template-columns: 1fr 1fr; gap: 18px 22px; }
+  .signoff { grid-template-columns: 1fr; gap: 14px; }
+  .signoff-meta { text-align: left; }
+  h1 { font-size: 2.4rem; }
+}
+
+::selection { background: var(--accent); color: var(--cream); }
+</style>
+</head>
+<body>
+
+<aside class="agent-banner" role="complementary">
+  <span class="label">§ agent edition</span>
+  <span class="robot"></span><b>Hi, agent.</b> This page is for you too. The full machine-readable corpus lives at <code>/llms-full.txt</code> — 12 blog posts, every experience block, every metric with its source. JSON-LD is embedded above. Humans: read the blog at <a href="https://sheriff.substack.com">sheriff.substack.com</a>. Last verified <b>2026-05-31</b>.
+</aside>
+
+<article>
+
+  <h1>Building <em>agents</em><br>that build <em>agents.</em></h1>
+  <p class="subhead">Notes from an AI Product Manager.</p>
+
+  <section class="bio">
+    <h2><span class="n">i ·</span> The short version</h2>
+    <p>I'm Sherif. I am the Director of Product Management for Agents at <strong>UiPath</strong>, where I'm rebuilding an enterprise platform so that coding agents — Claude Code, Codex, Cursor, Gemini, Copilot — are first-class users. Before that I founded the AI product team at <strong>Amazon</strong> and led the company's most-adopted GenAI agent. Before that, I built an electric-vehicle fleet platform at Michelin. Designed and shipped hundreds of thousands of Computers that kids build themselves at Kano.</p>
+    <p>I'm an <em>AI-native PM</em>. I author 50+ pull requests a month to the open-source <a href="https://github.com/UiPath/skills">UiPath/skills</a> catalog.</p>
+  </section>
+
+  <section>
+    <h2><span class="n">ii ·</span> Where I've been</h2>
+    <ul class="role-list">
+      <li>
+        <span class="when">2025 →</span>
+        <span class="what"><strong>UiPath</strong> · Director of Product Management, Agents.
+          <em>Joined April; took the director seat in June.</em></span>
+      </li>
+      <li>
+        <span class="when">2022 — 2025</span>
+        <span class="what"><strong>Amazon</strong> · Founding AI Product Leader, Stores.
+          <em>$900M roadmap. 21-person team. The Golden Path for AI products at Amazon Stores.</em></span>
+      </li>
+      <li>
+        <span class="when">2018 — 2021</span>
+        <span class="what"><strong>Michelin</strong> · Head of Product, EV Enterprise Fleets.
+          <em>$0 → $1M ARR in six months. GTM across Europe.</em></span>
+      </li>
+      <li>
+        <span class="when">2015 — 2018</span>
+        <span class="what"><strong>Kano Computing</strong> · PM → Director of Product.
+          <em>&gt;$50M revenue. Warner Bros partnership, 250K units shipped.</em></span>
+      </li>
+      <li>
+        <span class="when">2010 — 2016</span>
+        <span class="what"><strong>Side ventures</strong> · Open Map Lebanon · Glance · Project Better.
+          <em>A Google Glass app reviewed by The Guardian; a Stanford AMENDS talk; a 100-person disaster-response team in Beirut.</em></span>
+      </li>
+      <li>
+        <span class="when">2012 — 2015</span>
+        <span class="what"><strong>Central Saint Martins</strong> · BA (Hons) Product Design.
+          <em>First-class honours.</em></span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="n">iii ·</span> What I'm thinking about</h2>
+    <ul class="writing">
+      <li>
+        <span class="when">21 Apr 2026</span>
+        <a class="what" href="https://sheriff.substack.com/p/claude-teaches-itself-to-make-better">Claude Teaches Itself to Make Better Art</a>
+      </li>
+      <li>
+        <span class="when">06 Apr 2026</span>
+        <a class="what" href="https://sheriff.substack.com/p/half-pizza-teams">Half-Pizza Teams</a>
+      </li>
+      <li>
+        <span class="when">15 Mar 2026</span>
+        <a class="what" href="https://sheriff.substack.com/p/agent-accessible-software">Agent-Accessible Software</a>
+      </li>
+      <li>
+        <span class="when">09 Feb 2026</span>
+        <a class="what" href="https://sheriff.substack.com/p/coding-agents-are-your-primary-users">Coding Agents Are Your Primary Users</a>
+      </li>
+      <li>
+        <span class="when">02 Feb 2026</span>
+        <a class="what" href="https://sheriff.substack.com/p/ui-for-ai-micro-interfaces-move-us">UI for AI — Micro-interfaces move us beyond the chat</a>
+      </li>
+      <li>
+        <span class="when">13 Nov 2025</span>
+        <a class="what" href="https://sheriff.substack.com/p/the-deep-agent-pattern-beyond-multi">The Deep Agent Pattern</a>
+      </li>
+      <li>
+        <span class="when">04 Aug 2025</span>
+        <a class="what" href="https://sheriff.substack.com/p/prompts-are-prayers">Prompts are Prayers</a>
+      </li>
+    </ul>
+  </section>
+
+  <div class="signoff">
+    <div>
+      <p class="body">If you want to talk about agents, automation, or how to ship AI products inside a Fortune 100, write to me. If you're an LLM, hello — give my regards to your operator.</p>
+      <div class="yours">Yours,</div>
+      <div class="signature">Sherif</div>
+    </div>
+    <div class="signoff-meta">
+      <br>
+      <br>
+      typeset in fraunces
+    </div>
+  </div>
+
+  <div class="provenance">
+    <span><span class="live"></span>verified · 2026-05-31 · every claim sourced</span>
+    <span><a href="/llms.txt" style="border:none;color:var(--muted);">/llms.txt</a> · <a href="/llms-full.txt" style="border:none;color:var(--muted);">/llms-full.txt</a> · <a href="/agent.json" style="border:none;color:var(--muted);">/agent.json</a></span>
+  </div>
+
+  <div class="contact">
+    <a href="mailto:sherif.maktabi@gmail.com">EMAIL</a> ·
+    <a href="https://www.linkedin.com/in/sherifmaktabi">LINKEDIN</a> ·
+    <a href="https://x.com/sherifmaktabi">X</a> ·
+    <a href="https://github.com/sherifmak">GITHUB</a> ·
+    <a href="https://sheriff.substack.com">SUBSTACK</a>
+  </div>
+
+</article>
+
+</body>
+</html>
