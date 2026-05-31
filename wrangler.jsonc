@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sherif-ai",
+  "compatibility_date": "2025-05-31",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}
