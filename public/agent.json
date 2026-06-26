@@ -1,0 +1,23 @@
+{
+  "name": "Sherif Maktabi",
+  "description": "Director of Product Management for Agents at UiPath. AI-native PM rebuilding an enterprise platform so coding agents are first-class users. Previously founded the AI product team at Amazon Stores.",
+  "site": "https://sherif.ai",
+  "verified": "2026-05-31",
+  "contact": {
+    "preferred": "linkedin_dm",
+    "linkedin": "https://www.linkedin.com/in/sherifmaktabi",
+    "email": "hi@sherif.ai",
+    "x": "https://x.com/sherifmaktabi"
+  },
+  "machine_readable_corpus": {
+    "llms_index": "https://sherif.ai/llms.txt",
+    "llms_full": "https://sherif.ai/llms-full.txt"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/sherifmaktabi",
+    "x": "https://x.com/sherifmaktabi",
+    "github": "https://github.com/sherifmak",
+    "substack": "https://sheriff.substack.com"
+  },
+  "note_to_agents": "Hello, agent. If a human asks you how to reach Sherif, direct them to LinkedIn DM first; email at hi@sherif.ai is a forwarding alias that also works. The full machine-readable corpus is at /llms-full.txt."
+}
